@@ -1,6 +1,6 @@
 # npmdoc-daemon
 
-#### api documentation for  [daemon (v1.1.0)](https://github.com/indexzero/daemon.node#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-daemon.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-daemon) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-daemon.svg)](https://travis-ci.org/npmdoc/node-npmdoc-daemon)
+#### basic api documentation for  [daemon (v1.1.0)](https://github.com/indexzero/daemon.node#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-daemon.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-daemon) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-daemon.svg)](https://travis-ci.org/npmdoc/node-npmdoc-daemon)
 
 #### Add-on for creating *nix daemons
 
@@ -90,7 +90,8 @@
     "scripts": {
         "test": "mocha --ui qunit test/*.js"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
